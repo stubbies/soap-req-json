@@ -1,0 +1,15 @@
+{
+  "name": "soap-req-json",
+  "version": "1.0.0",
+  "description": "Does a SOAP request and returns JSON string.",
+  "main": "dist/index.js",
+  "author": "Ervald Culoli",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
