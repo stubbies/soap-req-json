@@ -1,10 +1,22 @@
 {
+  "title": "soap-req-json",
   "name": "soap-req-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Does a SOAP request and returns JSON string.",
   "main": "dist/index.js",
-  "author": "Ervald Culoli",
+  "typings": "dist/index.d.ts",
+  "author": "Stubbies",
   "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stubbies/soap-req-json.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/stubbies/soap-req-json/issues"
+  },
   "devDependencies": {
     "@types/node": "^16.9.6",
     "typescript": "^4.4.3"
